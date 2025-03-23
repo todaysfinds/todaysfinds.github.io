@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+div, a {
+  text-align:center;
+  height:50px;
+  line-height:50px;
+  font-family:'GmarketSansMedium', sans-serif;
+}
+
+div{
+  color:#3c2523;
+  background-color:#d0beb6;
+}
+
+a {
+  color:#ffffff;
+  text-decoration:none;
+  display:block;
+  background-color:#daccc5;
+}
+
+a:hover{
+  color:#daccc5;
+  background-color:#ffffff;
+}
