@@ -1,14 +1,13 @@
 @font-face {
-  font-family: "GmarketSansMedium";
-  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
-    format("woff");
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Paperlogy-8ExtraBold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
 }
 
 a {
   font-weight: bold;
-  font-family: "GmarketSansMedium", sans-serif;
+  font-family: "Paperlogy-8ExtraBold", sans-serif;
   text-align: center;
   text-decoration: none;
   display: block;
@@ -20,9 +19,12 @@ div {
   background-color: #d0beb6;
 }
 
+/* 기본 PC 화면 */
+
 a.title-link {
+  letter-spacing:-0.1rem;
   display: inline-block;
-  font-size: 3.5rem;
+  font-size: 4rem;
   height: 200px;
   line-height: 210px;
   color: #3c2523;
@@ -37,7 +39,25 @@ a.link-menu {
   background-color: #daccc5;
 }
 
+/* 마우스 오버 시 효과 */
+
 a.link-menu:hover {
   color: #daccc5;
   background-color: #ffffff;
+}
+
+/* ===== 반응형 모바일 스타일 ===== */
+
+@media screen and (max-width: 768px) {
+  a.title-link {
+    font-size: 2.5rem;
+    height: 120px;
+    line-height: 130px;
+  }
+
+  a.link-menu {
+    font-size: 1.5rem;
+    height: 100px;
+    line-height: 110px;
+  }
 }
