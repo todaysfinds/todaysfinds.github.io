@@ -1,34 +1,36 @@
 @font-face {
-  font-family: 'GmarketSansMedium';
-  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-family: "GmarketSansMedium";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
-div{
-  font-size:80px;
-  font-weight:bold;
-  text-align:center;
-  height:240px;
-  line-height:250px;
-  font-family:'GmarketSansMedium', sans-serif;
-  color:#3c2523;
-  background-color:#d0beb6;
-}
-
 a {
-  font-size:60px;
-  text-align:center;
-  height:200px;
-  line-height:200px;
-  font-family:'GmarketSansMedium', sans-serif;
-  color:#ffffff;
-  text-decoration:none;
-  display:block;
-  background-color:#daccc5;
+  font-weight: bold;
+  font-family: "GmarketSansMedium", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  display: block;
 }
 
-a:hover{
-  color:#daccc5;
-  background-color:#ffffff;
+a.title-link {
+  font-size: 3.5rem;
+  height: 200px;
+  line-height: 210px;
+  color: #3c2523;
+  background-color: #d0beb6;
+}
+
+a.link-menu {
+  font-size: 40px;
+  height: 180px;
+  line-height: 190px;
+  color: #ffffff;
+  background-color: #daccc5;
+}
+
+a.link-menu:hover {
+  color: #daccc5;
+  background-color: #ffffff;
 }
