@@ -14,7 +14,14 @@ a {
   display: block;
 }
 
+div {
+  display: block;
+  text-align:center;
+  background-color: #d0beb6;
+}
+
 a.title-link {
+  display: inline-block;
   font-size: 3.5rem;
   height: 200px;
   line-height: 210px;
